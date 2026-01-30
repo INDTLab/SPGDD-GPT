@@ -124,6 +124,22 @@ The key arguments of the training script are as follows:
 
 Note that the epoch number can be set in the `epochs` argument at [./code/config/openllama_peft.yaml](code/config/openllama_peft.yaml) file and the learning rate can be set in  [./code/dsconfig/openllama_peft_stage_1.json](code/dsconfig/openllama_peft_stage_1.json)
 
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@ARTICLE{11363231,
+  author={An, Shengwang and Dong, Xinghui},
+  journal={IEEE Transactions on Automation Science and Engineering}, 
+  title={SPGDD-GPT: Image-Text-Driven Generic Defect Diagnosis Using a Self-prompted Large Vision-Language Model}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Defect detection;Adaptation models;Computational modeling;Visualization;Data models;Training;Memory modules;Learning systems;Feature extraction;Annotations;Defect detection;defect diagnosis;large visionlanguage model;few-shot learning;vision-language alignment},
+  doi={10.1109/TASE.2026.3657596}}
+
+```
+
 
 
 
